@@ -30,6 +30,8 @@ null,
 options,
 options[1]);
 
+
+
 v1.work();
 takeABeat(6000);
 
@@ -50,6 +52,25 @@ takeABeat(6000);
 
 v1.Suneo();
 
+takeABeat(10000);
+
+         Object[] opt = {"Yes","No"};
+int b = JOptionPane.showOptionDialog(new JFrame(),
+"We finished the introduction "
++ " Shall we start the story?",
+"A Silly Question",
+JOptionPane.YES_NO_CANCEL_OPTION,
+JOptionPane.QUESTION_MESSAGE,
+null,
+options,
+options[1]);
+
+
+
+
+
+
+
 
 
 
@@ -66,11 +87,10 @@ v1.Suneo();
     
       
         takeABeat(5000);
-         Object[] opt= {"Yes, please",
-                    "No, thanks",
+       
                    };
   
         
 
     
-}}
+}
