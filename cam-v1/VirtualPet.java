@@ -39,16 +39,36 @@ public class VirtualPet {
     
     public void work() {
         excitement = excitement + 1;
-        face.setImage("verysick");
+        face.setImage("die");
+        face.setMessage("Hello I am Doraemon");
     }
-
+    public void Nobita(){
+        excitement = excitement + 2;
+        face.setImage("Nobita");
+        face.setMessage("Hello I am Nobita");
+    }
+    public void Sizuka(){
+        excitement = excitement + 2;
+        face.setImage("kill");
+        face.setMessage("Hello I am Sizuka");
+    }
+    public void Gian(){
+        excitement = excitement+2;
+        face.setImage("Gian");
+        face.setMessage("Hello I am Gian");
+    }
+    public void Suneo(){
+        excitement = excitement + 2;
+        face.setImage("dance");
+        face.setMessage("Hello I am Suneo");
+    }
     public void chill(){
-        excitement = excitement + 1;
-        face.setMessage("Its the best day ever!!!");
-        face.setImage("asleep");
+        excitement = excitement + 2;
+        face.setMessage("Hello guys");
+        face.setImage("friends");
     }
     public void football(){
-        excitement = excitement+1;
+        excitement = excitement+2;
         face.setMessage("Thats a goalllllll  Wooooahhhhhhhhhh!");
         face.setImage("football");
     }

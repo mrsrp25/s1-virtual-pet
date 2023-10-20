@@ -21,8 +21,8 @@ public class runner{
 
          Object[] options = {"Yes","No"};
 int n = JOptionPane.showOptionDialog(new JFrame(),
-"Do you want me to play soccer "
-+ "right now",
+"Do you want to explore"
++ " Doraemon and his friends?",
 "A Silly Question",
 JOptionPane.YES_NO_CANCEL_OPTION,
 JOptionPane.QUESTION_MESSAGE,
@@ -30,21 +30,41 @@ null,
 options,
 options[1]);
 
-    String s = (String)JOptionPane.showInputDialog(
-         new JFrame(),
-         "You want me to play soccer?",
-         "Question?",
-         JOptionPane.PLAIN_MESSAGE
-       );
+v1.work();
+takeABeat(6000);
 
 
-  System.out.println(s);
+v1.Nobita();
+
+
+
+takeABeat(6000);
+
+v1.Sizuka();
+
+
+takeABeat(6000);
+
+v1.Gian();
+takeABeat(6000);
+
+v1.Suneo();
+
+
+
+
+
+
+   
+
+
+ 
         takeABeat(4000);
 
        
 
     
-        v1.football();
+      
         takeABeat(5000);
          Object[] opt= {"Yes, please",
                     "No, thanks",
