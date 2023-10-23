@@ -72,8 +72,22 @@ public class VirtualPet {
         face.setMessage("Thats a goalllllll  Wooooahhhhhhhhhh!");
         face.setImage("football");
     }
- 
-   
+
+    public void episode(){
+        excitement = excitement + 2;
+        face.setImage("episode");
+        face.setMessage("Doraemon and the Mystery of Goody land");
+    }
+    public void sleeping(){
+        excitement = excitement - 1;
+        face.setImage("sleeping");
+        face.setMessage("Nobita is Sleeping in his room like always");
+    }
+   public void clock(){
+    excitement = excitement + 0;
+    face.setImage("clock");
+    face.setMessage("And Suddenly the alarm clock rings");
+   }
     
 ;
 

@@ -8,7 +8,7 @@ public class runner{
     private static final Component Response = null;
     public static void takeABeat(int milliseconds){
         try {
-            Thread.sleep(1000); //milliseconds
+            Thread.sleep(3000); //milliseconds
         } catch(Exception e){
         
         }
@@ -64,6 +64,20 @@ JOptionPane.QUESTION_MESSAGE,
 null,
 options,
 options[1]);
+
+takeABeat(10000);
+
+v1.episode();
+
+takeABeat(50000);
+
+v1.sleeping();
+
+takeABeat(500000);
+
+v1.clock();
+
+
 
 
 
