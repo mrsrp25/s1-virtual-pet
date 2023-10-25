@@ -104,5 +104,56 @@ public class VirtualPet {
     face.setImage("run");
     face.setMessage("Nobita took his bag and started running downstairs");
    }
+   public void granny(){
+    excitement = excitement + 10;
+    face.setImage("granny");
+    face.setMessage("Suddenly he sees his grandmother and he hugs her");
+   }
+   public void school(){
+    excitement = excitement +2;
+    face.setImage("school");
+    face.setMessage("Then he leaves to go to school");
+   }
 
-} // end Virtual Pet
+   public void meet(){
+    excitement = excitement + 500;
+    face.setImage("meet");
+    face.setMessage("On the Way he meets Shizuka and decides to go with her");
+   }
+   public void comes(){
+    excitement = excitement - 200;
+    face.setImage("comes");
+    face.setMessage("Then a little bit later he meets Gian and Suneo");
+   }
+   public void bully(){
+    excitement = excitement -200;
+    face.setImage("bully");
+    face.setMessage("Gian and Suneo started bullying Nobita and scaring him");
+   }
+   public void cry(){
+    excitement = excitement -100;
+    face.setImage("cry");
+    face.setMessage("Nobita started crying and running to school");
+   }
+   public void sir(){
+    excitement = excitement - 3;
+    face.setImage("sir");
+    face.setMessage("Then he reached his class and found out that he was late");
+   }
+   public void teacher(){
+    excitement = excitement - 3;
+    face.setImage("teacher");
+    face.setMessage("His teacher punishes him and tells him to stand outside");
+   }
+   public void learn(){
+    excitement = excitement - 2;
+    face.setImage("learn");
+    face.setMessage("After his 1st class was over he recieved a call from his home saying this grandmother got a sudden illness and was admitted to hospital");
+   }
+   public void tears(){
+    excitement = excitement -100;
+    face.setImage("tears");
+    face.setMessage("He came in tears and ran to the hospital");
+   }}
+
+

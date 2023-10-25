@@ -87,6 +87,33 @@ v1.late();
 takeABeat(10000);
 
 v1.run();
+takeABeat(10000);
+
+v1.granny();
+takeABeat(10000);
+
+v1.school();
+
+takeABeat(10000);
+
+v1.meet();
+
+takeABeat(10000);
+
+v1.comes();
+takeABeat(10000);
+
+v1.bully();
+takeABeat(10000);
+v1.cry();
+takeABeat(10000);
+v1.sir();
+takeABeat(10000);
+v1.teacher();
+takeABeat(10000);
+v1.learn();
+takeABeat(10000);
+v1.tears();
 
 
 
