@@ -89,6 +89,20 @@ public class VirtualPet {
     face.setMessage("And Suddenly the alarm clock rings");
    }
     
-;
+   public void wakeUp(){
+    excitement = excitement - 2;
+    face.setImage("wakeup");
+    face.setMessage("He wakes up after a deep sleep");
+   }
+   public void late(){
+    excitement = excitement + 1;
+    face.setImage("late");
+    face.setMessage("Doraemon says Nobita to wake up and run as he was late!!!!");
+   }
+   public void run(){
+    excitement = excitement + 5;
+    face.setImage("run");
+    face.setMessage("Nobita took his bag and started running downstairs");
+   }
 
 } // end Virtual Pet

@@ -77,6 +77,17 @@ takeABeat(500000);
 
 v1.clock();
 
+takeABeat(10000);
+
+v1.wakeUp();
+
+takeABeat(10000);
+v1.late();
+
+takeABeat(10000);
+
+v1.run();
+
 
 
 
