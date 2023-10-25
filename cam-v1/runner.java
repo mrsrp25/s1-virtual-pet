@@ -31,6 +31,12 @@ options,
 options[1]);
 
 
+System.out.println(n);
+if(n==1){
+    System.exit(0);
+}
+
+
 
 v1.work();
 takeABeat(6000);
@@ -65,6 +71,11 @@ null,
 options,
 options[1]);
 
+System.out.println(b);
+if(b==1){
+    System.exit(0);
+
+}
 takeABeat(10000);
 
 v1.episode();
