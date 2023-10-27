@@ -126,7 +126,30 @@ v1.learn();
 takeABeat(10000);
 v1.tears();
 
+takeABeat(10000);
+v1.vacation();
 
+takeABeat(10000);
+v1.later();
+takeABeat(10000);
+v1.adventure();
+takeABeat(100000);
+
+         Object[] opti = {"Yes","No"};
+int t = JOptionPane.showOptionDialog(new JFrame(),
+" "
++ " Do you wanna explore Goody Land",
+"A Silly Question",
+JOptionPane.YES_NO_CANCEL_OPTION,
+JOptionPane.QUESTION_MESSAGE,
+null,
+options,
+options[1]);
+
+System.out.println(t);
+if(t==1){
+    System.exit(0);
+}
 
 
 
