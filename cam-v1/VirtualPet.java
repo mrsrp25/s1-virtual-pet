@@ -160,6 +160,17 @@ public class VirtualPet {
     face.setImage("vacation");
     face.setMessage("They Finally decided to go to Goody land which is a fun place for adventure");
     }
+    public void later(){
+        excitement = excitement +1;
+        face.setImage("24hours");
+        face.setMessage("24 hours later");
+    }
+    public void adventure(){
+        excitement = excitement+2;
+        face.setImage("adventure");
+        face.setMessage("Everyone have reached Goody Land Safely and Nobita is enjoying it with his friends");
+    }
+    
 }
 
 
