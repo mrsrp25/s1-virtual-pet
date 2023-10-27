@@ -146,14 +146,20 @@ public class VirtualPet {
     face.setMessage("His teacher punishes him and tells him to stand outside");
    }
    public void learn(){
-    excitement = excitement - 2;
+    excitement = excitement + 200;
     face.setImage("learn");
-    face.setMessage("After his 1st class was over he recieved a call from his home saying this grandmother got a sudden illness and was admitted to hospital");
+    face.setMessage("After school Shizuka invites nobita and her friends for a handout in the park");
    }
    public void tears(){
-    excitement = excitement -100;
+    excitement = excitement + 20;
     face.setImage("tears");
-    face.setMessage("He came in tears and ran to the hospital");
-   }}
+    face.setMessage("They started making a Plan to have a vacation for a week");
+   }
+   public void vacation(){
+    excitement = excitement + 50;
+    face.setImage("vacation");
+    face.setMessage("They Finally decided to go to Goody land which is a fun place for adventure");
+    }
+}
 
 
