@@ -5,6 +5,7 @@
  */
 
 import java.awt.Component;
+import java.util.ArrayList;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -170,7 +171,20 @@ public class VirtualPet {
         face.setImage("adventure");
         face.setMessage("Everyone have reached Goody Land Safely and Nobita is enjoying it with his friends");
     }
-    
-}
+
+   public  void Characters(ArrayList<String> characters) {
+        for (String character : characters) {
+            if (character.length() % 2 == 0) {
+             
+               face.setImage("kill");
+               face.setMessage("Hello my friends");
+              
+               }
+               else{
+                
+               }
+        }
+    }
+
 
 
