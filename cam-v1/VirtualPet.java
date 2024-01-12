@@ -176,15 +176,22 @@ public class VirtualPet {
         for (String character : characters) {
             if (character.length() % 2 == 0) {
              
-               face.setImage("kill");
+               face.setImage("fry");
                face.setMessage("Hello my friends");
               
                }
                else{
-                
+                face.setImage("sorry");
+                face.setMessage("Sorry Try Again");
+               }}}
+               public void bold(){
+                excitement = excitement + 6;
+                face.setImage("mummy");
+                face.setMessage("They thought to build a house and with the help of Doraemon they did build a house");
                }
+
         }
-    }
+    
 
 
 
